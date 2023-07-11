@@ -1,0 +1,123 @@
+.ourProductsy {
+    width: 100vw;
+    padding: 100px 0;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.ourProductsTitlr {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.productSpanText {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(84, 84, 84);
+    margin-bottom: 20px;
+}
+
+.ourProductsFlex {
+    width: 100%;
+    display: flex;
+    border-top: 1.5px solid rgba(68, 68, 68, 0.219);
+    padding: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: all .3s ease;
+    border: 1.6px solid #fff;
+    height: 280px;
+    box-sizing: border-box;
+}
+
+.productCard:hover {
+    cursor: pointer;
+    border: 1.6px solid #00804A;
+
+}
+
+.producstLink {
+    display: flex;
+    width: 18%;
+    margin-right: 5px;
+
+}
+
+
+
+.productImg {
+    width: 100%;
+    height: 175px;
+    margin-bottom: 10px;
+}
+
+.productsPicture {
+    width: 100%;
+    height: 100%;
+}
+
+.productName {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #2c2c2c8d;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+
+
+.productPrice {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000ad;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.btnBoxForProductPage {
+    width: 100%;
+    text-align: center;
+}
+
+.proPageBtn {
+    text-decoration: none;
+    color: #037b35;
+    border: 2px solid #037b35;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #fff;
+    border: 2px solid #037b35;
+    border-radius: 26.5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    outline: none;
+    overflow: hidden;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: .5s;
+    width: 32%;
+
+}

@@ -1,0 +1,14 @@
+.sliderSy {
+    width: 100vw;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-image: url("../../assets/Images/companySlider.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.swiperCon {
+    padding: 70px 0 0 0 ;
+}

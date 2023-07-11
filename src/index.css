@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body h1, h2, h3, h4 {
+  font-family: "Roboto";
+}
+
+body p, span {
+  font-family: 'Poppins';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 128, 0, 0.629);
+  border-radius: 20px;
+}
+
+

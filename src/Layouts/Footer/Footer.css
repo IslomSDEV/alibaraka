@@ -1,0 +1,107 @@
+.footerSy {
+    width: 100vw;
+    background-color: rgba(3, 123, 53, 1);
+    padding: 70px 0;
+    padding-bottom: 110px;
+    position: relative;
+}
+
+.footerFlex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerDesc {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foterLogoLink {
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.fDescTitle {
+    max-width: 300px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footerNavigation {
+    width: 700px;
+    padding: 0 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ftNavSy {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ftLink {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #dddddd49;
+    transition: .4s all;
+    font-family: "Inter";
+}
+
+.ftLink:hover {
+    text-decoration: underline #fff;
+    color: #fff;
+}
+
+.foterSpanTitle {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    margin-bottom: 10px;
+} 
+
+.fBotomFlex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.btTitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 13.5px;
+    letter-spacing: 1.5px;
+}
+
+.btLogos {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btMinTitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 13.5px;
+    letter-spacing: 1.4px;
+}
+
+.footerBotomImg {
+    width: 100%;
+    height: 100px;
+    position: absolute;  
+    bottom: 0;  
+}

@@ -1,0 +1,52 @@
+.blogLastBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blogLastCard {
+    width: 330px;
+}
+
+.blogLastImgBox {
+    width: 100%;
+    height: 170px;
+}
+
+.blogLastPic {
+    width: 100%;
+    height: 100%;
+}
+
+.blogLastName {
+    color: #037b35;
+    font-size: 14px;
+    letter-spacing: 2.43229px;
+    line-height: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.blogLastDesc {
+    color: #45525b;
+    font-size: 21.8906px;
+    line-height: 26px;
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 18px;
+}
+
+.blogLastDate {
+    display: flex;
+    color: #45525b;
+    font-size: 13.3776px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
